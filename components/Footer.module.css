@@ -1,0 +1,163 @@
+.footer {
+  background: #111111;
+  color: #ffffff;
+  padding: 64px 0 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 0 48px;
+  }
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.brandLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brandName {
+  font-size: 16px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.brandSub {
+  font-size: 11px;
+  color: rgb(255, 192, 56);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.brandText {
+  font-size: 14px;
+  color: #aaaaaa;
+  line-height: 1.6;
+  max-width: 280px;
+}
+
+.license {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(255, 192, 56);
+  align-self: baseline;
+  background: rgba(255, 192, 56, 0.1);
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 192, 56, 0.2);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #cccccc;
+  transition: color 0.15s;
+}
+
+.contactItem:hover {
+  color: rgb(255, 192, 56);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.colTitle {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.colLink {
+  font-size: 14px;
+  color: #aaaaaa;
+  transition: color 0.15s;
+}
+
+.colLink:hover {
+  color: rgb(255, 192, 56);
+}
+
+.footerBottom {
+  background: #111111;
+}
+
+.bottom {
+  margin-top: 48px;
+  border-top: 1px solid #222222;
+  padding: 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 48px;
+  }
+}
+
+.bottomText {
+  font-size: 13px;
+  color: #777777;
+}
+
+.bottomLinks {
+  display: flex;
+  gap: 16px;
+}
+
+.bottomLink {
+  font-size: 13px;
+  color: #777777;
+  transition: color 0.15s;
+}
+
+.bottomLink:hover {
+  color: #aaaaaa;
+}
