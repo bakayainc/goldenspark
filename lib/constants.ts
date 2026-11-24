@@ -178,12 +178,9 @@ export const SERVICES: Service[] = [
     features: [
       'Explosion-proof wiring & fixtures',
       'Dedicated spray booth power circuits',
-      'Exhaust fan & air make-up controls',
+      'Exhaust fan controls',
       'Lighting for cure & refinish applications',
       'NFPA 33 & Ontario Fire Code compliance',
-      'Interlock systems & safety controls',
-      'Infrared & UV curing system power',
-      'Booth controller panel installation',
       'ESA inspection support',
       'Retrofit & upgrade of existing booths',
     ],
